@@ -1,2 +1,2 @@
-# Lab_prot-info
-Lab protection of information
+# Анонимный чат
+Клиент-серверное приложение
