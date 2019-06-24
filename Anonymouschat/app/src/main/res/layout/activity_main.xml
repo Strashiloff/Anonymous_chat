@@ -7,4 +7,71 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText23"
+            android:layout_width="0dp"
+            android:layout_weight="0.6"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="IP adress"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="reconnect"
+            android:text="Reconnect" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editText18"
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:ems="10"
+        android:hint="User name"
+        android:inputType="textPersonName"
+        android:text="user" />
+
+    <ScrollView
+        android:id="@+id/my_scrole_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText21"
+            android:layout_width="0dp"
+            android:layout_weight="0.6"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:hint="Message"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="sendMessage"
+            android:text="Send" />
+    </LinearLayout>
+
 </LinearLayout>
